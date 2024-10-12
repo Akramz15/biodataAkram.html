@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Akram</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-image: url('WhatsApp Image 2024-10-11 at 15.34.38_cb9e561a.jpg');
+            background-size: cover;
+            background-position: center; 
+            background-attachment: fixed;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        nav {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff9500;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            border-radius: 50px;
+            width: 50%;
+            max-width: 700px;
+            margin-top: 70px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            display: block;
+        }       
+
+        .profile-img {
+            width: 250px; 
+            height: 200px; 
+            object-fit: cover; 
+            margin-bottom: 20px;
+            border: 4px solid #000000; 
+            border-radius: 15px; 
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.1);
+            border-color: #000000; 
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5); 
+        }
+
+        h2, p {
+            color: #fff; 
+            margin: 10px 0;
+        }
+
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        table, th, td {
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        th {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        a {
+            color: rgb(249, 160, 58);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0,5s ease;
+        }
+
+        a:hover {
+            color: #fb9246;
+        }
+
+       
+        table {
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body> 
+    <nav>
+        <ul>
+            <li><a href="#">BIODATA</a></li>
+        </ul>
+    </nav>
+
+   <div class="container">
+        <img src="WhatsApp Image 2024-10-11 at 19.43.20_1158e6b9.jpg " alt="Foto Profil" class="profile-img"> 
+        <h2>Nama : Naufal Akramziyad P.H</h2>
+        <h2>Tanggal Lahir : 24 Februari 2006</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Hobi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Renang</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mendengarkan musik</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Membaca</td>
+                </tr>
+            </tbody>
+        </table>       
+        <p>Follow me <a href="https://www.instagram.com/naufalllaz" target="_blank">Instagram</a></p>
+    </div>
+
+</body>
+</html>
+
